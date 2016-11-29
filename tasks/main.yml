@@ -1,7 +1,7 @@
 ---
-- include: setup.yml
+- include: install_and_configure.yml
 - include: hooks.yml
-- include: service.yml
+- include: redirector_service.yml
 
 - name: Generate certificates
   become_user: "acme"
